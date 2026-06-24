@@ -3,7 +3,7 @@
 PyTorch implementation of "Show, Attend and Tell: Neural Image 
 Caption Generation with Visual Attention" (Xu et al., 2015).
 
-Generates NL captions for images using a convolutional neural network encoder to extract features from the image, deterministic attention to focus on one region at each word, and LSTM decoder generating captions. 
+Generates NL captions for images using a convolutional neural network encoder to extract features from the image, deterministic attention to focus on one region at each word, and LSTM(long-short-term memory) decoder generating captions. 
 
 ## Dataset
 Flickr8k — 8,000 images, 5 reference captions each
