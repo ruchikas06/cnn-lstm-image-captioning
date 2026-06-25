@@ -15,7 +15,7 @@ When generating "dog" the model focuses on the dog's body.
 When generating "water" focus shifts to the surface below.
 
 **"a man in a red shirt is skating on a sidewalk"**
-![skateboarder attention](attention_3480051754_18e5802558_jpg.png)
+![skateboarder attention](attention_3480051754_18e5802558.jpg.png)
 
 When generating "red" the model correctly focuses on the shirt. 
 When generating "sidewalk" focus shifts to the ground surface.
