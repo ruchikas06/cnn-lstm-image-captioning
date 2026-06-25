@@ -5,6 +5,21 @@ Caption Generation with Visual Attention" (Xu et al., 2015).
 
 Generates NL captions for images using a convolutional neural network encoder to extract features from the image, deterministic attention to focus on one region at each word, and LSTM(long-short-term memory) decoder generating captions. 
 
+## attention visualization
+
+
+**"a dog is walking through water"**
+![dog water attention](assets/attention_247704641_d883902277_jpg.png)
+
+When generating "dog" the model focuses on the dog's body. 
+When generating "water" focus shifts to the surface below.
+
+**"a man in a red shirt is skating on a sidewalk"**
+![skateboarder attention](assets/attention_3480051754_18e5802558_jpg.png)
+
+When generating "red" the model correctly focuses on the shirt. 
+When generating "sidewalk" focus shifts to the ground surface.
+
 ## Dataset
 Flickr8k — 8,000 images, 5 reference captions each
 - Train: 6,000 images (30,000 caption pairs)
