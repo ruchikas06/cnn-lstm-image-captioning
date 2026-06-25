@@ -46,7 +46,7 @@ pip install torch torchvision nltk pillow numpy matplotlib tqdm
 jupyter notebook caption.ipynb
 ```
 
-## Paper reference
+## Reference
 Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhutdinov, R., 
 Zemel, R., & Bengio, Y. (2015). Show, Attend and Tell: Neural Image 
 Caption Generation with Visual Attention. ICML 2015.
