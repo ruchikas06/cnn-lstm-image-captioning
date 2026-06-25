@@ -5,7 +5,7 @@ Caption Generation with Visual Attention" (Xu et al., 2015).
 
 Generates NL captions for images using a convolutional neural network encoder to extract features from the image, deterministic attention to focus on one region at each word, and LSTM(long-short-term memory) decoder generating captions. 
 
-## attention visualization
+## Visualization of Model Attention 
 
 
 **"a dog is walking through water"**
