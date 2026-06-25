@@ -9,7 +9,7 @@ Generates NL captions for images using a convolutional neural network encoder to
 
 
 **"a dog is walking through water"**
-![dog water attention](attention_247704641_d883902277_jpg.png)
+![dog water attention](attention_247704641_d883902277.jpg.png)
 
 When generating "dog" the model focuses on the dog's body. 
 When generating "water" focus shifts to the surface below.
